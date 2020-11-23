@@ -1,0 +1,27 @@
+= append-to-path-powershell
+
+Permanently append path to a specified environment variable using powershell. The resulting environment variable value will be persistent across all the following job steps.
+
+Step syntax:
+
+....
+- name: <name>
+  uses: myci-actions/append-to-path-powershell@<version>
+  with:
+    path: <path>
+    env-var: <env-var-name>
+....
+
+Arguments:
+
+- `<path>` - Path to append.
+- `<env-var-name>` - Environment variable name to append the path to. Default value is `PATH`.
+
+Step example:
+....
+- name: add CoAPP path to module lookup paths
+  uses: myci-actions/append-to-path@1
+  with:
+    path: C:\Program Files (x86)\Outercurve Foundation\Modules
+    env-var: PSModulePath
+....
