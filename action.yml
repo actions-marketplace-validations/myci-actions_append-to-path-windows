@@ -1,5 +1,5 @@
-name: 'Append path to an environment variable using powershell'
-description: 'Permanently append path to a specified environment variable using powershell.'
+name: 'Append path to an environment variable in windows'
+description: 'Permanently append path to a specified windows environment variable.'
 branding:
   icon: 'archive'
   color: 'purple'
