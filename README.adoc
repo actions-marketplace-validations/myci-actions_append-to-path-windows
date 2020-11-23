@@ -20,7 +20,7 @@ Arguments:
 Step example:
 ....
 - name: add CoAPP path to module lookup paths
-  uses: myci-actions/append-to-path@1
+  uses: myci-actions/append-to-path-powershell@1
   with:
     path: C:\Program Files (x86)\Outercurve Foundation\Modules
     env-var: PSModulePath
