@@ -1,3 +1,7 @@
+= DEPRECATED
+
+please use https://github.com/myci-actions/export-env-var or https://github.com/myci-actions/export-env-var-powershell
+
 = append-to-path-windows
 
 Permanently append path to a specified environment variable using powershell. The resulting environment variable value will be persistent across all the following job steps.
